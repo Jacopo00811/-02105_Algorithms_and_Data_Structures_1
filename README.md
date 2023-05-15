@@ -1,2 +1,2 @@
-# -02105_Algorithms_and_Data_Structures_1
-02105 Algorithms and Data Structures 1 Spring 23 DTU
+# 02105_Algorithms_and_Data_Structures_1
+Exercises for the course 02105 Algorithms and Data Structures 1 (Spring 23) DTU. This GitHub repository contains a codebase comprising a combination of code written by myself, code sourced from online platforms, and code obtained from other GitHub repositories. The implementation adheres to the concepts covered in the textbook and lecture slides. Additionally, a review sheet has been provided, which has been translated from Danish.
