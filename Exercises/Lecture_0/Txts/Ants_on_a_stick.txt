@@ -1,0 +1,3 @@
+The maximum duration of time before all ants have fallen off the stick over all possible initial placements of the ants is 100s. 
+Since you can place the everywhere on the stick and they go at the same velocity, the max amount of time it will take them to fall on the
+other side is 100s. (You can also imagine that the ants can cross each other)

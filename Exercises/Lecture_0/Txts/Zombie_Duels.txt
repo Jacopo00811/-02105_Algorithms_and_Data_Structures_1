@@ -1,0 +1,19 @@
+You have n zombies. You can make them duel in a cage 1 vs.1. You want to minimize the number of duels needed.
+
+#### 6.1
+If you want at most n-1 you can simply do a tournament of the type "King of the cage" where the winner zombie has to fight the next one.
+
+#### 6.2
+One approach to finding the strongest and weakest zombie in an army of n brainless zombies with at most 3n/2 duels is as follows:
+Split the army into pairs of two zombies and determine the stronger one in each pair through a duel. This will result in n/2 stronger zombies.
+Take the n/2 stronger zombies and split them into pairs again. Determine the stronger one in each pair through a duel. This will result in n/4 stronger zombies.
+Repeat step 2 until there is only one zombie left. This zombie is the strongest zombie.
+To find the weakest zombie, compare each of the defeated zombies in step 1 to the strongest zombie. The weakest zombie will 
+be the one that lost in the duel against the strongest zombie. This approach will require at most 3n/2 duels, as the number 
+of duels in each round is reduced by half.
+
+#### 6.3
+To find the strongest and the second strongest in at most n+log_2(n) duels you can do the following:
+First do a normal tournament, the loosers of the tournament. Then take the looser of the final and make it duel with the loosers of the
+other side of the bracket in order to establish if he is the second strongest or not. (These are other 4 duels). So in total we have:
+7 duels form the normal tournament and 4 to establish the second strongest. 7+4=11 or generalized n+log_2(n) when n=8.

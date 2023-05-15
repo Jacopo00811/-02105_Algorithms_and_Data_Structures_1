@@ -1,0 +1,14 @@
+There is a group of programmers. In this group there is a sick programmer. He/she makes all the other nearby sick too. How many steps do 
+you need to indetify the pearson?
+
+##### 5.1
+If n=128 at most you need 7 moves because you can keep splitting the slow group in 2 and in 7 moves you will find the sick programmer.
+
+#### 5.2 
+If I have n programmers the minimum number of tests needed to find the diseased programmer in a group of n 
+programmers can be calculated using binary search algorithm. In binary search, you keep dividing the group into halves 
+until you find the diseased programmer. For n programmers, the minimum number of tests would be log_2(n). 
+
+#### 5.3
+If you have k rooms, in each round you can test k groups of programmers simultaneously. The minimum number of rounds 
+needed to identify the diseased programmer is log_k(n), where n is the number of programmers.

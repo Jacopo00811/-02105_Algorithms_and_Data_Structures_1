@@ -1,0 +1,27 @@
+A data structure from my introductory programming course is an array. 
+a.	Some advantages of an array are:
+i.	Elements can be accessed directly by using their index
+ii.	Easier to store elements of the same data type
+iii. They are commonly used to store large amounts of data
+
+b.	Some limitations of an array are:
+i. The size of an array can’t be changed after its implementation
+ii.	They are homogeneous which mean only one type of data can be stored
+iii. Store data in contiguous (one by one) memory location.
+
+2.	A real-world problem where only the optimal solution will do is planning the shortest route for a delivery truck to 
+make multiple deliveries in a day because it is vital to find the shortest distance the truck have travel to minimize fuel 
+costs and make sure the packages are delivered on time. A real-world problem where an approximate solution is sufficient could 
+be predicting the weather. It would be ideal to have an accurate forecast but because of the complexity of weather systems and 
+how easy they can change; it makes it very difficult to predict the weather with complete accuracy. Thus, an approximate solution 
+such as a forecast that’s within a range of some predetermined parameters is sufficient. 
+3.	Measures of complexity of algorithms can be:
+a.	Space complexity: Space complexity refers to the amount of memory used by an algorithm. Sometimes, the amount of memory used 
+can be more important than the time taken to execute the algorithm, especially when working with large datasets or limited memory 
+resources.
+b.	Scalability: Scalability refers to the ability of an algorithm to handle increasing amounts of data or processing requirements. 
+An algorithm that has good scalability will be able to handle increasing amounts of data or processing requirements without a 
+significant increase in the time required to execute the algorithm.
+c.	Cache performance: Cache performance refers to the efficiency of an algorithm in utilizing the computer's cache memory. 
+Algorithms that are optimized for cache performance can make better use of the cache and can execute faster than algorithms that 
+do not take cache performance into account.

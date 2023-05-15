@@ -1,0 +1,9 @@
+One way of doing this is by using BFS instead of DFS. The algorithm uses two arrays dist[] and path[]. 
+dist[] stores the shortest distances from the source vertex to the target vertex, and paths[] represents 
+the number of different shortest paths from the source vertex to each of the vertices. For each neighbor Y of vertex X, 
+the algorithm checks whether the distance to Y can be improved by going through X. If it can, the distance is updated 
+and the number of shortest paths to Y is set equal to the number of shortest paths to X. If the distance to Y is already 
+equal to the distance to X plus one, then the number of shortest paths to Y is incremented by the number of shortest paths
+ to X. In summary, the algorithm is essentially looking at all neighbors of each vertex, and updating the shortest path 
+ and number of shortest paths to each neighbor based on whether going through the current vertex would result in a shorter 
+distance or more shortest paths.

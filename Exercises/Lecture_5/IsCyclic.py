@@ -1,0 +1,1 @@
+# Use DFS with a visited list of True and False. Look at exercise 3.
